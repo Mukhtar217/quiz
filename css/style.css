@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     color: #0f65ef;
     font-weight: bold;
     font-size:15px;
@@ -8,6 +8,7 @@
 
 .logo {
     width: 125px;
+    
 }
 
 body {
@@ -18,15 +19,18 @@ body {
 .siliconValley {
     width: 50%;
     height:50%;
+    border:solid 2px white;
 }
 
 #caption {
     font-size: 20px;
+    
 }
 
 #tomImg {
     border-radius: 50%;
-    width: 50px;
+    width: 40px;
+    height:45px;
 }
 
 a {
@@ -51,13 +55,50 @@ button {
     font-family: monospace;
 }
 
-body{
+#page1{
+    background-color:#070000;
     background-image: url("https://sm.ign.com/ign_it/screenshot/default/avengers-1_6uy5.jpg"); 
-    background-size: 105%;
+    background-size:80%;
     margin-left:20px;
     background-repeat: no-repeat;
     color:white;
-    background-position: right;
+    background-position: center;
+}
+#page2{
+    background-color: black;
+     background-image: url("http://pm1.narvii.com/6822/042ce2a185cb0f28659bf6e5b4cb8b050632530e_00.jpg"); 
+    background-size: 80%;
+    margin-left:20px;
+    background-repeat: no-repeat;
+    color:white;
+    background-position: center;
+}
+#page3{
+    background-color:#110021;
+    background-image: url("https://st1.bollywoodlife.com/wp-content/uploads/2018/03/Avengers-poster-2.jpg"); 
+    background-size: 80%;
+    margin-left:20px;
+    background-repeat: no-repeat;
+    color:white;
+    background-position: center;
+}
+#page4{
+    background-color: black;
+    background-image: url("https://cdn1.thr.com/sites/default/files/2018/03/avengers_infinity_wars_key_art_poster_3_embed.jpg"); 
+    background-size: 80%;
+    margin-left:20px;
+    background-repeat: no-repeat;
+    color:white;
+    background-position: center;
+}
+#page5{
+    background-color: black;
+        background-image: url("http://nerdist.com/wp-content/uploads/2018/03/Avengers-Infinity-War-Scarlet-Witch-poster.jpg"); 
+    background-size: 80%;
+    margin-left:20px;
+    background-repeat: no-repeat;
+    color:white;
+    background-position: center;
 }
 .answers{
    display:flex;
@@ -72,9 +113,73 @@ body{
         -webkit-text-stroke: 1.1px black;
 
 }
+.click3{
+    margin-top: 21px;
+    margin-right:5px;
+    height:10px;
+    background-color:white;
+    border: solid 2px white;
+    color:blue;
+        -webkit-text-stroke: 1.1px black;
+          font-size:20px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:25%;
+    height:35px;
+
+}
+.click5{
+    margin-top: 21px;
+    margin-right:5px;
+    height:10px;
+    background-color:white;
+    border: solid 2px white;
+    color:purple;
+        -webkit-text-stroke: 1.1px black;
+          font-size:20px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:25%;
+    height:35px;
+
+}
+.click7{
+    margin-top: 21px;
+    margin-right:5px;
+    height:10px;
+    background-color:white;
+    border: solid 2px white;
+    color:green;
+        -webkit-text-stroke: 1.1px black;
+          font-size:20px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:25%;
+    height:35px;
+
+}
+.click9{
+    margin-top: 21px;
+    margin-right:5px;
+    height:10px;
+    background-color:white;
+    border: solid 2px white;
+    color:gold;
+        -webkit-text-stroke: 1.1px black;
+          font-size:20px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:25%;
+    height:35px;
+
+}
 
 p{
-    background-color: black;
+
     color:white;
 }
 .qu{
@@ -82,12 +187,46 @@ p{
     height:33%;
     width:95%;
 }
-h2{
+.p1{
     font-size:40px;
     color:#9999ff;
-    -webkit-text-stroke: 2px blue;
+    -webkit-text-stroke: 0.5px blue;
     display:flex;
     justify-content:center;
+}
+.p2{
+    font-size:40px;
+    color:#b74fef;
+    -webkit-text-stroke: 0.5px purple;
+    display:flex;
+    justify-content:center;
+}
+.p3{
+     font-size:40px;
+    color:#50ed68;
+    -webkit-text-stroke: 0.5px green;
+    display:flex;
+    justify-content:center;
+}
+.p4{
+     font-size:40px;
+    color:gold;
+    -webkit-text-stroke: 0.5px black;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+.p5{
+     font-size:40px;
+    color:#f26565;
+    -webkit-text-stroke: 0.5px red;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+#question2{
+    display: flex;
+    justify-content:space-around;
 }
 #questions{
     display:flex;
@@ -109,6 +248,7 @@ h2{
     height:35px;
 
 }
+
 .click2{
     
   font-size:20px;
@@ -125,9 +265,167 @@ h2{
 
 
 }
+.click4{
+    
+  font-size:20px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:25%;
+    height:65px;
+        margin-top: 21px;
+    margin-right:5px;
+    background-color:white;
+    color:blue;
+        -webkit-text-stroke: 1.1px black;
+
+
+}
+.click6{
+    
+  font-size:20px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:25%;
+    height:65px;
+        margin-top: 21px;
+    margin-right:5px;
+    background-color:white;
+    color:purple;
+        -webkit-text-stroke: 1.1px black;
+
+
+}
+.click8{
+    
+  font-size:20px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:25%;
+    height:65px;
+        margin-top: 21px;
+    margin-right:5px;
+    background-color:white;
+    color:green;
+        -webkit-text-stroke: 1.1px black;
+
+
+}
+.click10{
+    
+  font-size:20px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:25%;
+    height:65px;
+        margin-top: 21px;
+    margin-right:5px;
+    background-color:white;
+    color:gold;
+        -webkit-text-stroke: 1.1px black;
+
+
+}
 .click:hover{
     background-color: red;
 }
 .click2:hover{
     background-color:red;
+}
+.click3:hover{
+    background-color: blue;
+}
+.click4:hover{
+    background-color:blue;
+}
+.click5:hover{
+    background-color: purple;
+}
+.click6:hover{
+    background-color:purple;
+}
+.click7:hover{
+    background-color: green;
+}
+.click8:hover{
+    background-color:green;
+}
+.click9:hover{
+    background-color: gold;
+}
+.click10:hover{
+    background-color:gold;
+}
+#names{
+    display:flex;
+    justify-content:center;
+}
+#next{
+    display: flex;
+    justify-content:center;
+}
+.next:hover{
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    border:solid white 3px;
+}
+.next{
+    border-radius: 50%;
+    font-size: 20px;
+    height:30px;
+    background-color: white;
+    color:black;
+    border:solid black 15px;
+    padding-top:5px;
+     margin-top:50px;
+    border-radius: 25px;
+    border:3px groove black ;
+    font-family: monospace;
+    width:75px;
+    text-align: center;
+}
+#loading{
+    display:none;
+}
+#results{
+    background-color: black;
+}
+.space{
+    width:50%;
+}
+#retu{
+    display:flex;
+}
+.personPic{
+    width:160px;
+    height:225px;
+    border:solid white 2px;
+    margin-right:30px;
+}
+#resizeCA{
+    width:200px;
+    
+}
+.Person{
+    display:flex;
+    margin-top:30px;
+    padding:10px;
+    border:solid purple 2px;
+}
+.namess{
+    font-size:40px;
+    color:#d49611;
+            
+
+}
+.person1Row{
+    display: flex;
+    justify-content:space-around;
+}
+.bigName{
+    font-size:35px;
 }
